@@ -1,0 +1,42 @@
+.head-section{
+	border-bottom:1px solid #E6E6E6;
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+.headLeft-section{
+	width: calc(30% - 1px);
+	float: left;
+	border-right:1px solid #E6E6E6;
+}
+.headLeft-sub{
+	padding: 15px;
+	text-align: center;
+}
+.headLeft-sub input{
+	width: 60%;
+	border-radius: 0px;
+	border:1px solid #E6E6E6;
+	border-radius:  10% 0 0 10% ;
+
+	padding: 7px;
+}
+.headLeft-sub button{
+	background: #ddcb24;
+	color: #222;
+	border:1px solid #E6E6E6;
+	border-radius: 0 20% 20% 0;
+	padding: 7px 15px;
+}
+.headRight-section{
+	width: 70%;
+	float: left;
+}
+.headRight-sub{
+	padding: 10px 15px 0px 15px;
+}
+
+.dark{
+	background-color:#222 !important;
+	color:#E6E6E6;
+}
